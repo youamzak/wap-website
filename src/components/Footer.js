@@ -13,6 +13,8 @@ const FooterStyled = styled.div`
   height: 100px;
   p {
     margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 `
 const Footer = () => {

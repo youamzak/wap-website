@@ -5,8 +5,13 @@ const SectionStyled = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 500px;
+  height: auto;
   padding-top: 10px;
+  @media (max-width: 391px) {
+    img {
+      display: none;
+    }
+  }
 `;
 
 const SectionImgStyled = styled.div`
@@ -17,10 +22,16 @@ const SectionImgStyled = styled.div`
   & img {
     width: 100%;
   }
+  @media (max-width: 391px) {
+    width: 0%;
+  }
 `;
 const SectionCommentStyled = styled.div`
   width: 70%;
   padding-left: 10px;
+  @media (max-width: 391px) {
+    width: 100%;
+  }
 `;
 
 const Section = (props) => {

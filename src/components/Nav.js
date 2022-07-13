@@ -10,6 +10,10 @@ const NavStyled = styled.div`
   gap: 50px;
   width: 80%;
   font-size: 20px;
+  margin-right: 50px;
+  @media (max-width: 391px) {
+    display: none;
+  }
 `;
 
 const NavTitleStyled = styled.div`
@@ -21,7 +25,6 @@ const NavTitleStyled = styled.div`
     transition-duration: 0.5s;
   }
   &:hover {
-    
     div {
       width: 100%;
       transition-property: width;

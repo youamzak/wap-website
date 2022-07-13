@@ -9,22 +9,25 @@ const HeaderStyled = styled.div`
   top: 0;
   z-index: 1000;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 `;
 
 const HeaderContentStyled = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: auto;
-  margin-left: auto;
-
   width: 80%;
   height: 100px;
+  @media (max-width: 391px) {
+    justify-content: center;
+    width: 100%;
+  }
 `;
 
 const Header = () => {
   return (
-    <HeaderStyled >
+    <HeaderStyled className="bk_blue color_light" >
       <HeaderContentStyled className="bk_blue color_light">
         <Logo img={<LogoLight />} />
         <Nav />

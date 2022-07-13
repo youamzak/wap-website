@@ -10,9 +10,9 @@ const FooterStyled = styled.div`
   margin-left: auto;
   margin-top: 10px;
   width: 100%;
-  height: 100px;
+  height: auto;
   p {
-    margin-top: 0;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
   }

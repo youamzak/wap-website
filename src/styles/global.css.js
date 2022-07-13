@@ -18,7 +18,9 @@ export default createGlobalStyle`
     margin-left: auto;
     margin-right: auto ;
     width: 80%;
-    
+    @media (max-width: 391px) {
+      width: 100%;
+    }
   }
 
   // Font colors

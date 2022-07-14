@@ -26,6 +26,7 @@ const SectionImgStyled = styled.div`
     width: 0%;
   }
 `;
+
 const SectionCommentStyled = styled.div`
   width: 70%;
   padding-left: 10px;
